@@ -9,11 +9,11 @@
   weight = 20
 
 [[main]]
-  name = "Publications"
-  url = "/publications/"
+  name = "Portfolio"
+  url = "/portfolio/"
   weight = 30
 
 [[main]]
-  name = "Portfolio"
-  url = "/portfolio/"
+  name = "Publications"
+  url = "/publications/"
   weight = 40

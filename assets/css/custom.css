@@ -8,3 +8,12 @@ article a {
 article a:hover {
   text-decoration-color: var(--color-primary-600);
 }
+
+.nav-next {
+  color: var(--color-primary-600);
+  transition: opacity 0.2s;
+}
+
+.nav-next:hover {
+  opacity: 0.75;
+}
