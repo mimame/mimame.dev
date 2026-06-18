@@ -1,0 +1,10 @@
+article a {
+  color: var(--color-primary-600);
+  text-decoration: underline;
+  text-decoration-color: transparent;
+  transition: text-decoration-color 0.2s;
+}
+
+article a:hover {
+  text-decoration-color: var(--color-primary-600);
+}

@@ -1,0 +1,19 @@
+[[main]]
+  name = "CV"
+  url = "/cv/"
+  weight = 10
+
+[[main]]
+  name = "Expertise"
+  url = "/expertise/"
+  weight = 20
+
+[[main]]
+  name = "Publications"
+  url = "/publications/"
+  weight = 30
+
+[[main]]
+  name = "Portfolio"
+  url = "/portfolio/"
+  weight = 40

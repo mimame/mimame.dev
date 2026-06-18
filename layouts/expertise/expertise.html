@@ -1,0 +1,26 @@
+{{ define "main" }}
+  {{ $cv := hugo.Data.cv }}
+
+  <article class="max-w-prose mx-auto">
+    <h1 class="text-3xl font-bold mb-8">{{ .Title }}</h1>
+
+    {{ if $cv.skills }}
+    <div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
+      {{ range $cv.skills }}
+      <div>
+        <h2 class="font-semibold text-base mb-2 text-primary-600 dark:text-primary-400">{{ .name }}</h2>
+        <ul class="space-y-1">
+          {{ range .keywords }}
+          <li class="text-sm flex items-start gap-2">
+            <span class="mt-1.5 h-1.5 w-1.5 rounded-full bg-neutral-400 dark:bg-neutral-500 shrink-0"></span>
+            {{ . }}
+          </li>
+          {{ end }}
+        </ul>
+      </div>
+      {{ end }}
+    </div>
+    {{ end }}
+
+  </article>
+{{ end }}

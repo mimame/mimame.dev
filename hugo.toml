@@ -1,0 +1,8 @@
+baseURL = "https://mimame.dev"
+defaultContentLanguage = "en"
+locale = "en"
+title = "Miguel Madrid-Mencía"
+
+[module]
+  [[module.imports]]
+    path = "github.com/nunocoracao/blowfish/v2"

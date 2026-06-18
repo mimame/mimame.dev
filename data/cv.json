@@ -1,0 +1,218 @@
+{
+  "basics": {
+    "name": "Miguel Madrid-Mencía",
+    "label": "Senior Backend & Cloud Engineer | Bioinformatics & AI Systems",
+    "email": "miguel.madrid.mencia@gmail.com",
+    "phone": "",
+    "website": "https://mimame.dev",
+    "summary": "10+ years building cloud-native systems across genomics, healthcare, and AI. 1 first-author and 6 co-authored peer-reviewed publications with 127+ citations.",
+    "location": {
+      "address": "",
+      "postalCode": "",
+      "city": "Toulouse",
+      "countryCode": "FR",
+      "region": "Occitanie"
+    },
+    "profiles": [
+      {
+        "network": "Google Scholar",
+        "username": "Miguel Madrid-Mencía",
+        "url": "https://scholar.google.com/citations?user=4QCcJzoAAAAJ"
+      },
+      {
+        "network": "GitHub",
+        "username": "mimame",
+        "url": "https://github.com/mimame"
+      },
+      {
+        "network": "LinkedIn",
+        "username": "miguel-madrid-mencia",
+        "url": "https://www.linkedin.com/in/miguel-madrid-mencia"
+      }
+    ]
+  },
+  "work": [
+    {
+      "company": "Egen.ai",
+      "position": "Senior Backend & Cloud Engineer",
+      "startDate": "Feb 2024",
+      "endDate": "Present",
+      "summary": "Applied ML Systems. Technology services through cloud, data, AI, and platforms.",
+      "highlights": [
+        "Built an automated data pipeline migration tool with an internal developer API for healthcare and precision medicine workloads on GCP.",
+        "Built a Twilio-based testing framework to automatically generate all mood and user behavior call combinations for a Voice AI system, replacing manual script configuration.",
+        "Hardened CI/CD pipelines, code quality gates, and security standards for a US financial client — catching production issues earlier and reducing error-prone contributions across the team.",
+        "Developed GCP Agents and A2A orchestration via MCP/ADK for a pharma & biotech corporation."
+      ],
+      "location": "Hybrid: US, France",
+      "url": "https://egen.ai"
+    },
+    {
+      "company": "Illumina, Inc.",
+      "position": "Senior Software Engineer",
+      "startDate": "Mar 2022",
+      "endDate": "Feb 2024",
+      "summary": "Genetic analysis technologies: personalized medicine, disease research, drug development.",
+      "highlights": [
+        "Evaluated privacy-preserving data sharing solutions to reduce friction from restrictive genomic data policies.",
+        "Built machine learning pipelines on Illumina Connected Analytics (ICA), HPC, and AWS.",
+        "Designed and optimized Snowflake-based data models for genomics and GWAS pipelines.",
+        "Co-authored a [pending patent](https://patents.google.com/patent/US20240120024A1/) in applied bioinformatics and genomic data processing."
+      ],
+      "location": "Hybrid: UK, France",
+      "url": "https://www.illumina.com"
+    },
+    {
+      "company": "Cancer Research Center of Toulouse (CRCT)",
+      "position": "Bioinformatics Engineer",
+      "startDate": "Oct 2018",
+      "endDate": "Feb 2022",
+      "summary": "Translational cancer research center in Toulouse, focused on oncology and systems biology.",
+      "highlights": [
+        "Designed reproducible ML pipelines for multi-omics analysis of pancreatic and lung cancer, scaled across cancer types.",
+        "1 first-author and 6 co-authored peer-reviewed publications with 127+ citations in oncology and systems biology.",
+        "Built [GARDEN-NET](https://pancaldi.bsc.es/garden-net/), a web tool for 3D chromatin interaction analysis, still in active use — published in Nucleic Acids Research."
+      ],
+      "location": "Hybrid: Toulouse, France",
+      "url": "https://www.crct-inserm.fr/en/netbio2_en/"
+    },
+    {
+      "company": "Spanish National Supercomputing Center (BSC)",
+      "position": "Research Engineer",
+      "startDate": "Jul 2017",
+      "endDate": "May 2018",
+      "summary": "European HPC center hosting the MareNostrum supercomputer.",
+      "highlights": [
+        "Developed a platform for AQuAS to analyze health outcomes and quality indicators through an interactive geospatial map.",
+        "Built the OpenEBench embeddable benchmarking widget (sole author) — a d3.js radial arc widget used by scientific tools across the ELIXIR European benchmarking platform.",
+        "Primary contributor (79 of 110 commits) to the OpenEBench submission infrastructure — Docker sample containers, Nextflow pipeline generator, Vagrant multi-service VM, and SFTP submission service."
+      ],
+      "location": "Barcelona, Spain",
+      "url": "https://www.bsc.es"
+    },
+    {
+      "company": "Spanish National Cancer Research Center (CNIO)",
+      "position": "Research Technician",
+      "startDate": "Nov 2016",
+      "endDate": "Jun 2017",
+      "summary": "Spain's national cancer research institute, focused on molecular oncology.",
+      "highlights": [
+        "Developed a reproducible workflow to identify mutation clusters in protein structures, including web-based visualization.",
+        "Contributed to the European OpenMinTeD NLP/text-mining project, developing services and APIs for biomedical text analysis."
+      ],
+      "location": "Madrid, Spain",
+      "url": "https://www.cnio.es/en/"
+    }
+  ],
+  "education": [
+    {
+      "institution": "Instituto de Salud Carlos III",
+      "area": "Master in Bioinformatics and Computational Biology",
+      "studyType": "Master",
+      "startDate": "Sep 2015",
+      "endDate": "May 2016",
+      "summary": "Master's Thesis: Structure-PPi v2.0: Module for Annotating Cancer-Related Single-Nucleotide Variants at Protein-Protein Interfaces."
+    },
+    {
+      "institution": "Universidad Complutense de Madrid",
+      "area": "Computer Engineering (Information Technologies)",
+      "studyType": "Bachelor",
+      "startDate": "Oct 2011",
+      "endDate": "Sep 2015",
+      "summary": "Bachelor's Thesis: Computer Vision Adapted to Optical Coherence Tomographies."
+    }
+  ],
+  "skills": [
+    {
+      "name": "Publications",
+      "keywords": [
+        "7 papers (1 first-author)",
+        "127+ citations",
+        "h-index 7",
+        "i10-index 6"
+      ]
+    },
+    {
+      "name": "Cloud & Platforms",
+      "keywords": [
+        "Terraform",
+        "GCP",
+        "AWS",
+        "Kubernetes / Helm",
+        "Docker, Podman",
+        "CI/CD (Concourse, Jenkins, GitHub Actions)"
+      ]
+    },
+    {
+      "name": "Data Analysis & ML",
+      "keywords": [
+        "Python (Pandas, Polars, Scikit-Learn)",
+        "R (Tidyverse, Tidymodels, DESeq2)",
+        "SQL (Snowflake, BigQuery, PostgreSQL)",
+        "Generative AI / LLMs",
+        "Visualization (Seaborn, ggplot2, Dash, D3.js)"
+      ]
+    },
+    {
+      "name": "Bioinformatics",
+      "keywords": [
+        "Workflow managers (Nextflow, Snakemake)",
+        "GWAS (Hail, Regenie, Plink)",
+        "Genome Databases (Ensembl, UCSC, GENCODE, TCGA)",
+        "Pathways (Reactome, KEGG, GSEA)",
+        "Structural Bioinformatics",
+        "Somatic Mutation Analysis (COSMIC)"
+      ]
+    },
+    {
+      "name": "Languages",
+      "keywords": [
+        "Spanish (Native)",
+        "English (Professional Working Proficiency)",
+        "French (Professional Working Proficiency)"
+      ]
+    },
+    {
+      "name": "Certifications",
+      "keywords": [
+        "GCP Certified Partner Specialist: Gemini Enterprise Deployment (Dec 2026)",
+        "GCP Certified Partner Specialist: Gemini Enterprise Agent Development (Dec 2026)",
+        "GCP Skill Badges: ADK Agents, Vertex AI, Kubernetes, Terraform (×9)",
+        "Linux Foundation: Open Source Technical Documentation, Remote Work at Scale"
+      ]
+    }
+  ],
+  "languages": [],
+  "interests": [],
+  "references": [],
+  "publications": [],
+  "teaching": [
+    {
+      "institution": "Instituto de Salud Carlos III",
+      "course": "NLP & Text Mining for Bioinformatics",
+      "type": "Guest Lecturer",
+      "startDate": "Apr 2017",
+      "endDate": "May 2017",
+      "summary": "Designed and delivered a 15-hour intensive module on biomedical text mining and NLP for the Master in Bioinformatics and Computational Biology (Madrid).",
+      "highlights": [
+        "Large-scale literature extraction from PubMed and PMC via the NCBI Entrez API (BioPython, ESearch, EFetch).",
+        "NLP pipelines in Python/NLTK: tokenization, POS tagging, n-grams, inverted indexing, lemmatization, and stemming — adapted for bioinformaticians with varied programming backgrounds."
+      ]
+    }
+  ],
+  "portfolio": [],
+  "certifications": [
+    {
+      "name": "GCP Certified Partner Specialist: Gemini Enterprise Deployment",
+      "issuer": "Google Cloud",
+      "endDate": "Dec 2026",
+      "url": "https://www.credly.com/users/miguel-madrid-mencia/badges"
+    },
+    {
+      "name": "GCP Certified Partner Specialist: Gemini Enterprise Agent Development",
+      "issuer": "Google Cloud",
+      "endDate": "Dec 2026",
+      "url": "https://www.credly.com/users/miguel-madrid-mencia/badges"
+    }
+  ]
+}
