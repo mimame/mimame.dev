@@ -1,0 +1,23 @@
+{{ define "main" }}
+  <article class="max-w-prose mx-auto">
+    <h1 class="mt-0 text-4xl font-extrabold text-neutral-900 dark:text-neutral">{{ .Title }}</h1>
+
+    <section class="prose dark:prose-invert mt-6">
+      {{ .Content }}
+    </section>
+
+    <div class="mt-8">
+      <h2 class="text-xl font-semibold border-b border-neutral-200 dark:border-neutral-700 pb-1 mb-4">Contact</h2>
+      <div class="flex space-x-2 text-2xl text-neutral-400 dark:text-neutral-500">
+        <a href="https://www.linkedin.com/in/miguel-madrid-mencia" target="_blank" rel="me noopener noreferrer"
+           class="hover:text-primary-700 dark:hover:text-primary-400" aria-label="LinkedIn" title="LinkedIn">
+          <span class="inline-block align-text-bottom">{{ partial "icon.html" "linkedin" }}</span>
+        </a>
+        <a href="mailto:miguel.madrid.mencia@gmail.com"
+           class="hover:text-primary-700 dark:hover:text-primary-400" aria-label="Email" title="Email">
+          <span class="inline-block align-text-bottom">{{ partial "icon.html" "email" }}</span>
+        </a>
+      </div>
+    </div>
+  </article>
+{{ end }}

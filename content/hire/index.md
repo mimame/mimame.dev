@@ -1,13 +1,14 @@
 ---
 title: "Working with me"
 description: "For recruiters and hiring managers."
+showDate: false
 ---
 
 *This page is for recruiters and hiring managers. If you reached it from a job platform or a direct message — you're in the right place.*
 
 ## What I'm looking for
 
-- French CDI, hybrid or remote
+- France-based, hybrid or remote, with real stability
 - Backend cloud-native **or** bioinformatics / genomics
 - A team with real autonomy and a sustainable pace
 
@@ -21,8 +22,8 @@ I care more about how you work than what you use. Stack and frameworks are secon
 
 ## If you have a specific role
 
-Share the job description and a few words on team culture. I'll reply within 24 hours.
+Feel free to share the job description and a few words on the team. I'll get back to you within 24 hours.
 
-I don't share my CV (PDF) before reading the offer. That's not a blocker — it's how I make sure the conversation is worth both our time. You can browse my public profile below in the meantime.
+I prefer to review the role before sending a PDF CV — my full background is available here in the meantime.
 
-→ [Publications](/publications/) · [Portfolio](/portfolio/) · [CV](/cv/)
+→ [CV](/cv/) · [Portfolio](/portfolio/) · [Publications](/publications/)
