@@ -8,7 +8,7 @@ featureImageAlt: "ML pipeline architecture diagram for GWAS patent"
 
 ![ML Pipeline Architecture Diagram](/images/US20240120024A1-20240411-D00000.png)
 
-A major technical milestone at **Illumina**, resulting in a published patent application for a novel machine learning pipeline.
+A technical contribution at **Illumina** as part of a team effort that resulted in a published patent application for a novel machine learning pipeline.
 
 ## The Problem
 
@@ -16,12 +16,12 @@ Genome-wide association studies (GWAS) are powerful for detecting variants assoc
 
 ### The Solution
 
-We developed a machine learning framework that predicts causal genes directly from GWAS summary statistics. By utilizing advanced ML techniques, this approach substantially improves gene identification performance in terms of both **precision and recall** compared to traditional methods.
+The team developed a machine learning framework that predicts causal genes directly from GWAS summary statistics. By utilizing advanced ML techniques, this approach substantially improves gene identification performance in terms of both **precision and recall** compared to traditional methods.
 
 ### Key Contributions
 
 - **Pipeline Architecture:** Designed and implemented the reproducible ML pipelines on HPC and AWS infrastructure.
-- **Scalability:** Optimized the system to handle the massive datasets characteristic of modern genomics.
+- **Scalability:** Helped optimize the system to handle the massive datasets characteristic of modern genomics.
 - **Innovation:** Co-authored the underlying methodology described in the patent application.
 
 **Patent Details:**
