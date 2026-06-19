@@ -12,27 +12,27 @@ permissions:
 
 concurrency:
   group: "pages"
-  cancel-in-progress: false
+  cancel-in-progress: false  # avoid torn deployments if two pushes land close together
 
 jobs:
   build:
     runs-on: ubuntu-latest
     env:
-      HUGO_VERSION: 0.163.2
+      HUGO_CACHEDIR: /tmp/hugo_cache  # predictable path shared between cache and build steps
     steps:
-      - name: Install Hugo CLI
-        run: |
-          wget -O ${{ runner.temp }}/hugo.deb \
-            https://github.com/gohugoio/hugo/releases/download/v${HUGO_VERSION}/hugo_extended_${HUGO_VERSION}_linux-amd64.deb \
-          && sudo dpkg -i ${{ runner.temp }}/hugo.deb
-
       - name: Checkout
-        uses: actions/checkout@v4
+        uses: actions/checkout@v6
         with:
-          fetch-depth: 0
+          fetch-depth: 0  # full history required for .GitInfo and .Lastmod
+
+      - name: Setup Hugo
+        uses: peaceiris/actions-hugo@v3
+        with:
+          hugo-version: '0.163.2'
+          extended: true  # Blowfish theme requires SCSS support
 
       - name: Setup Go (for Hugo modules)
-        uses: actions/setup-go@v5
+        uses: actions/setup-go@v6
         with:
           go-version-file: go.mod
           cache-dependency-path: go.sum
@@ -42,21 +42,21 @@ jobs:
         uses: actions/configure-pages@v5
 
       - name: Cache Hugo modules
-        uses: actions/cache@v4
+        # setup-go caches Go module downloads; this separately caches Hugo's processed data in HUGO_CACHEDIR
+        uses: actions/cache@v5
         with:
-          path: ${{ runner.temp }}/hugo_cache
+          path: ${{ env.HUGO_CACHEDIR }}
           key: ${{ runner.os }}-hugomod-${{ hashFiles('**/go.sum') }}
           restore-keys: ${{ runner.os }}-hugomod-
 
       - name: Build
         env:
-          HUGO_CACHEDIR: ${{ runner.temp }}/hugo_cache
           HUGO_ENVIRONMENT: production
           TZ: Europe/Paris
         run: hugo --gc --minify --baseURL "${{ steps.pages.outputs.base_url }}/"
 
       - name: Upload artifact
-        uses: actions/upload-pages-artifact@v3
+        uses: actions/upload-pages-artifact@v4
         with:
           path: ./public
 
