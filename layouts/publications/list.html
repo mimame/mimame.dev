@@ -22,30 +22,38 @@
         </h2>
         {{ range $pubs }}
         {{ $params := .Params }}
-        <div class="mb-8">
-          <h3 class="font-semibold leading-snug">
-            <a href="{{ $params.paperurl }}" target="_blank" rel="noopener" class="hover:text-primary-600 dark:hover:text-primary-400">
-              {{ .Title }}
-            </a>
-          </h3>
-          <p class="text-sm text-neutral-500 dark:text-neutral-400 mt-1">
-            Published in <em>{{ $params.venue }}</em>, {{ .Date.Format "2006" }}
-            {{ if and $params.citation_count (gt (int $params.citation_count) 0) }}
-              · Cited by {{ $params.citation_count }}
+        {{ $img := (.Resources.ByType "image").GetMatch "*feature*" }}
+        <div class="mb-8 flex gap-4">
+          {{ if $img }}
+          <div class="flex-shrink-0 w-24">
+            <img src="{{ $img.RelPermalink }}" alt="{{ .Title }}" class="w-full h-auto rounded" />
+          </div>
+          {{ end }}
+          <div class="flex-1 min-w-0">
+            <h3 class="font-semibold leading-snug">
+              <a href="{{ $params.paperurl }}" target="_blank" rel="noopener" class="hover:text-primary-600 dark:hover:text-primary-400">
+                {{ .Title }}
+              </a>
+            </h3>
+            <p class="text-sm text-neutral-500 dark:text-neutral-400 mt-1">
+              Published in <em>{{ $params.venue }}</em>, {{ .Date.Format "2006" }}
+              {{ if and $params.citation_count (gt (int $params.citation_count) 0) }}
+                · Cited by {{ $params.citation_count }}
+              {{ end }}
+            </p>
+            {{ if $params.summary }}
+            <p class="mt-2 text-sm">{{ $params.summary }}</p>
             {{ end }}
-          </p>
-          {{ if $params.summary }}
-          <p class="mt-2 text-sm">{{ $params.summary }}</p>
-          {{ end }}
-          {{ if $params.citation }}
-          <p class="mt-2 text-xs text-neutral-500 dark:text-neutral-400 italic">
-            Recommended citation: {{ $params.citation | markdownify }}
-          </p>
-          {{ end }}
-          <a href="{{ $params.paperurl }}" target="_blank" rel="noopener"
-             class="inline-block mt-2 text-xs font-medium text-primary-600 dark:text-primary-400 border border-primary-600 dark:border-primary-400 rounded px-3 py-1 hover:bg-primary-600 hover:text-white dark:hover:bg-primary-400 dark:hover:text-neutral-900 transition-colors">
-            {{ if eq $cat "patent" }}View Patent{{ else }}View Paper{{ end }}
-          </a>
+            {{ if $params.citation }}
+            <p class="mt-2 text-xs text-neutral-500 dark:text-neutral-400 italic">
+              Recommended citation: {{ $params.citation | markdownify }}
+            </p>
+            {{ end }}
+            <a href="{{ $params.paperurl }}" target="_blank" rel="noopener"
+               class="inline-block mt-2 text-xs font-medium text-primary-600 dark:text-primary-400 border border-primary-600 dark:border-primary-400 rounded px-3 py-1 hover:bg-primary-600 hover:text-white dark:hover:bg-primary-400 dark:hover:text-neutral-900 transition-colors">
+              {{ if eq $cat "patent" }}View Patent{{ else }}View Paper{{ end }}
+            </a>
+          </div>
         </div>
         {{ end }}
       </section>
