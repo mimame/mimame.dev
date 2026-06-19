@@ -2,8 +2,6 @@
 title: "Invention: ML Pipeline for Genome-Wide Association Studies (Patent)"
 date: 2024-04-11
 summary: "Co-authored patent US20240120024A1 for a machine learning approach that significantly improves causal gene identification in GWAS. Assignee: Illumina Inc."
-featureImage: "/images/US20240120024A1-20240411-D00000.png"
-featureImageAlt: "ML pipeline architecture diagram for GWAS patent"
 ---
 
 ![ML Pipeline Architecture Diagram](/images/US20240120024A1-20240411-D00000.png)

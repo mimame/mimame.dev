@@ -2,8 +2,6 @@
 title: "Computer Vision adapted to Optical Coherence Tomographies (Bachelor's Thesis)"
 date: 2015-07-01
 summary: "Automated image processing algorithm using Python and OpenCV to measure uvea thickness and monitor uveitis evolution in OCT scans."
-featureImage: "/images/Algoritmo_44_iteration=1_espesor_final.png"
-featureImageAlt: "Algorithm output showing automated uvea thickness measurement"
 ---
 
 Developed as a Bachelor's Thesis at the **Universidad Complutense de Madrid** in collaboration with the **Ophthalmology service of Hospital 12 de Octubre**.

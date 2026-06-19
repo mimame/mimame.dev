@@ -2,8 +2,6 @@
 title: "Structure-PPi v2.0"
 date: 2016-05-01
 summary: "Module for annotating cancer-related single-nucleotide variants at protein-protein interfaces, integrating Appris, Interactome3D, and COSMIC."
-featureImage: "/images/tp53.png"
-featureImageAlt: "TP53 protein structure visualization"
 ---
 
 ![TP53 Protein Structure Visualization](/images/tp53.png)

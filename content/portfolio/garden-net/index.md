@@ -2,8 +2,6 @@
 title: "GARDEN-NET & ChAseR: 3D Chromatin Interaction Networks"
 date: 2020-05-07
 summary: "R package and web-based visualization tool for the analysis and integration of epigenomic data within 3D chromatin networks. Published in Nucleic Acids Research."
-featureImage: "/images/garden-net.png"
-featureImageAlt: "GARDEN-NET 3D chromatin interaction network visualization"
 ---
 
 ![GARDEN-NET Visualization Tool](/images/garden-net.png)

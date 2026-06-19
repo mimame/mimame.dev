@@ -3,7 +3,7 @@ title: "Miguel Madrid-Mencía"
 description: "Senior Backend & Cloud Engineer at the intersection of genomics and production ML."
 ---
 
-Senior Backend & Cloud Engineer with 10 years across research, genomics, and software consulting. I build secure, reproducible cloud-native systems — CI/CD, ML pipelines, and AI agents — for clients in healthcare, finance, and biotech.
+Senior Backend & Cloud Engineer with 10+ years across research, genomics, and software consulting. I build secure, reproducible cloud-native systems — CI/CD, ML pipelines, and AI agents — for clients in healthcare, finance, and biotech.
 
 *Where genomics sharpens engineering.*
 
