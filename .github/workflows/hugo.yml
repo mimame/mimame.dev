@@ -32,6 +32,8 @@ jobs:
           extended: true  # Blowfish theme requires SCSS support
 
       - name: Setup Go (for Hugo modules)
+        # setup-go may warn that /home/runner/go/pkg/mod doesn't exist on cache save;
+        # this is harmless — it means Hugo pulled everything from HUGO_CACHEDIR and no new modules were downloaded
         uses: actions/setup-go@v6
         with:
           go-version-file: go.mod
