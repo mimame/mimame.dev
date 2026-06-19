@@ -3,7 +3,6 @@ defaultAppearance = "auto"
 autoSwitchAppearance = true
 enableSearch = false
 enableCodeCopy = false
-mainSections = ["publications", "portfolio"]
 
 [header]
 layout = "fixed"
