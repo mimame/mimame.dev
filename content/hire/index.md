@@ -4,7 +4,7 @@ description: "For recruiters and hiring managers."
 showDate: false
 ---
 
-**Senior Backend & Cloud Engineer** with a bioinformatics background — 10+ years across genomics, healthcare, and AI systems. Currently at Egen.ai building GCP infrastructure and multi-agent AI for pharma and biotech clients.
+**Senior Backend & Cloud Engineer** — Master's in Bioinformatics, 7 peer-reviewed publications (127+ citations, h-index 7) spanning oncology and genomics, and a pending Illumina patent on ML-based causal gene identification from GWAS data. 10+ years across public research in Spain and France, genomics industry, and cloud consulting.
 
 *This page is for recruiters and hiring managers. If you reached it from a job platform or a direct message — you're in the right place.*
 
