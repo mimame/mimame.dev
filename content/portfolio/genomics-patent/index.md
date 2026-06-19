@@ -4,6 +4,7 @@ date: 2024-04-11
 summary: "Co-authored patent US20240120024A1 for a machine learning approach that significantly improves causal gene identification in GWAS. Assignee: Illumina Inc."
 ---
 
+![ML Pipeline Architecture Diagram](patent-diagram.png)
 
 A technical contribution at **Illumina** as part of a team effort that resulted in a published patent application for a novel machine learning pipeline.
 

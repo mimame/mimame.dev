@@ -14,4 +14,11 @@ Developed as a Bachelor's Thesis at the **Universidad Complutense de Madrid** in
 - **Impact:** Replaced or supplemented time-consuming manual measurements with a consistent, reproducible algorithmic approach.
 
 
+### Results & Visualization
+
+| Manual Measurement | Automatic Algorithm Measurement |
+|:---:|:---:|
+| ![Manual Measurement](manual-measurement.png) | ![Automatic Measurement](algorithm-output.png) |
+| *Example of manual annotation* | *Algorithm output showing automated thickness calculation* |
+
 **Skills:** Computer Vision, Python, OpenCV, Medical Imaging.

@@ -4,6 +4,7 @@ date: 2020-05-07
 summary: "R package and web-based visualization tool for the analysis and integration of epigenomic data within 3D chromatin networks. Published in Nucleic Acids Research."
 ---
 
+![GARDEN-NET Visualization Tool](garden-net.png)
 
 A comprehensive suite of tools for the representation and analysis of 3D genome architecture.
 
