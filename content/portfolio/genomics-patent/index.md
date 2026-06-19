@@ -20,8 +20,8 @@ The team developed a machine learning framework that predicts causal genes direc
 
 ### Key Contributions
 
-- **Pipeline Architecture:** Designed and implemented the reproducible ML pipelines on HPC and AWS infrastructure.
-- **Scalability:** Helped optimize the system to handle the massive datasets characteristic of modern genomics.
+- **Pipeline Architecture:** Designed and implemented the reproducible ML pipelines on HPC and AWS infrastructure, including the Hail/Python code for the GWAS data processing component.
+- **Scalability:** Contributed to optimizing the system to handle the massive datasets characteristic of modern genomics.
 - **Innovation:** Co-authored the underlying methodology described in the patent application.
 
 **Patent Details:**

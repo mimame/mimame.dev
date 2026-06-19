@@ -35,17 +35,30 @@
     {
       "company": "Egen.ai",
       "position": "Senior Backend & Cloud Engineer",
-      "startDate": "Feb 2024",
+      "startDate": "Jan 2025",
       "endDate": "Present",
-      "summary": "Applied ML Systems. Technology services through cloud, data, AI, and platforms.",
+      "summary": "Applied ML Systems. Technology services through cloud, data, AI, and platforms. (Acquired from Qarik Group Jan 2025 — role and scope were continuous across the acquisition.)",
       "highlights": [
+        "Architected a multi-agent AI orchestration system on GCP for a pharma R&D client, applying genomics domain knowledge to shape agent design.",
+        "Developed GCP Agents and A2A orchestration via MCP/ADK for pharma and biotech clients.",
         "Built an automated data pipeline migration tool with an internal developer API for healthcare and precision medicine workloads on GCP.",
         "Built a Twilio-based testing framework to automatically generate all mood and user behavior call combinations for a Voice AI system, replacing manual script configuration.",
-        "Hardened CI/CD pipelines, code quality gates, and security standards for a US financial client — catching production issues earlier and reducing error-prone contributions across the team.",
-        "Developed GCP Agents and A2A orchestration via MCP/ADK for a pharma & biotech corporation."
+        "Hardened CI/CD pipelines, code quality gates, and security standards for a US financial client — catching production issues earlier and reducing error-prone contributions across the team."
       ],
       "location": "Hybrid: US, France",
       "url": "https://egen.ai"
+    },
+    {
+      "company": "Qarik Group",
+      "position": "Senior Backend & Cloud Engineer",
+      "startDate": "Feb 2024",
+      "endDate": "Dec 2024",
+      "summary": "GCP-focused cloud consultancy. Acquired by Egen.ai in Jan 2025; role and projects were continuous across the acquisition.",
+      "highlights": [
+        "Delivered an API for data ingestion into BigQuery, deployed on GCP with Terraform and Concourse, for a US biotech client."
+      ],
+      "location": "Hybrid: US, France",
+      "url": "https://qarik.com"
     },
     {
       "company": "Illumina, Inc.",
@@ -93,7 +106,7 @@
     {
       "company": "Spanish National Cancer Research Center (CNIO)",
       "position": "Research Technician",
-      "startDate": "Nov 2016",
+      "startDate": "May 2016",
       "endDate": "Jun 2017",
       "summary": "Spain's national cancer research institute, focused on molecular oncology.",
       "highlights": [
