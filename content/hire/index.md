@@ -4,6 +4,8 @@ description: "For recruiters and hiring managers."
 showDate: false
 ---
 
+**Senior Backend & Cloud Engineer** with a bioinformatics background — 10+ years across genomics, healthcare, and AI systems. Currently at Egen.ai building GCP infrastructure and multi-agent AI for pharma and biotech clients.
+
 *This page is for recruiters and hiring managers. If you reached it from a job platform or a direct message — you're in the right place.*
 
 ## What I'm looking for
