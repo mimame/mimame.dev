@@ -95,6 +95,27 @@
     </section>
     {{ end }}
 
+    {{ $pubs := where site.RegularPages "Section" "publications" }}
+    {{ if $pubs }}
+    <section class="mb-8">
+      <h2 class="text-xl font-semibold border-b border-neutral-200 dark:border-neutral-700 pb-1 mb-4">Publications</h2>
+      <div class="flex flex-wrap gap-2 mb-4 text-xs">
+        <span class="bg-neutral-100 dark:bg-neutral-800 px-2 py-1 rounded">7 papers · 1 first-author</span>
+        <span class="bg-neutral-100 dark:bg-neutral-800 px-2 py-1 rounded">127+ citations</span>
+        <span class="bg-neutral-100 dark:bg-neutral-800 px-2 py-1 rounded">h-index 7 · i10-index 6</span>
+        <span class="bg-neutral-100 dark:bg-neutral-800 px-2 py-1 rounded">1 pending patent · Illumina</span>
+      </div>
+      {{ range ($pubs.ByParam "citation_count").Reverse }}
+      <div class="mb-3 text-sm">
+        <a href="{{ .Params.paperurl }}" target="_blank" rel="noopener" class="font-medium hover:text-primary-600 dark:hover:text-primary-400">{{ .Title }}</a>
+        <span class="text-neutral-500 dark:text-neutral-400"> · {{ .Params.venue }}, {{ .Date.Format "2006" }}
+          {{ if and .Params.citation_count (gt (int .Params.citation_count) 0) }} · Cited by {{ .Params.citation_count }}{{ end }}
+        </span>
+      </div>
+      {{ end }}
+    </section>
+    {{ end }}
+
     {{ if $cv.skills }}
     <section class="mb-8">
       <h2 class="text-xl font-semibold border-b border-neutral-200 dark:border-neutral-700 pb-1 mb-4">Skills</h2>
