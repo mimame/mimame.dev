@@ -4,7 +4,6 @@ date: 2016-05-01
 summary: "Module for annotating cancer-related single-nucleotide variants at protein-protein interfaces, integrating Appris, Interactome3D, and COSMIC."
 ---
 
-![TP53 Protein Structure Visualization](/images/tp53.png)
 
 Developed as a **Master's Thesis**, this project created an automated computational module for the functional annotation of genomic variants within 3D protein structures.
 

@@ -4,7 +4,6 @@ date: 2017-07-01
 summary: "Interactive geospatial platform for the Catalan Agency for Health Quality and Evaluation to visualize and analyze regional health system indicators."
 ---
 
-![AQuAS Visualization Platform](/images/hospgen_allargada.jpg)
 
 Contributed to a collaboration between the **Barcelona Supercomputing Center (BSC)** and the **Catalan Agency for Health Quality and Evaluation (AQuAS)** to transform complex health system indicators into browseable, user-friendly insights.
 

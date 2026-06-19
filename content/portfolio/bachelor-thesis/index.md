@@ -13,11 +13,5 @@ Developed as a Bachelor's Thesis at the **Universidad Complutense de Madrid** in
 - **Technology Stack:** Leveraged `Python` with `OpenCV` bindings to perform image segmentation, feature extraction, and comparative analysis between manual and automatic measurements.
 - **Impact:** Replaced or supplemented time-consuming manual measurements with a consistent, reproducible algorithmic approach.
 
-### Results & Visualization
-
-| Manual Measurement | Automatic Algorithm Measurement |
-|:---:|:---:|
-| ![Manual Measurement](/images/EjemploImagenMedida.png) | ![Automatic Measurement](/images/Algoritmo_44_iteration=1_espesor_final.png) |
-| *Example of manual annotation* | *Algorithm output showing automated thickness calculation* |
 
 **Skills:** Computer Vision, Python, OpenCV, Medical Imaging.
