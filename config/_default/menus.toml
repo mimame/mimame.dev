@@ -4,7 +4,7 @@ url = "/cv/"
 weight = 10
 
 [[main]]
-name = "Expertise"
+name = "Skills"
 url = "/expertise/"
 weight = 20
 
