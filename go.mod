@@ -1,4 +1,4 @@
-module github.com/mimame/mimame.github.io
+module mimame.dev
 
 go 1.26.4
 
