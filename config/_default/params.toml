@@ -20,7 +20,7 @@ showRecent = false
 [article]
 showDate = true
 showAuthor = false
-showBreadcrumbs = true
+showBreadcrumbs = false
 showHeadingAnchors = true
 showReadingTime = false
 showTableOfContents = false

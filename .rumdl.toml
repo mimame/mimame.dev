@@ -1,5 +1,5 @@
 [global]
-exclude = ["public", "resources", "themes", "static"]
+exclude = ["public", "resources", "static"]
 respect-gitignore = true
 disable = [
   "MD013", # prose lines are not wrapped at 80 chars
