@@ -8,16 +8,22 @@
 
     <div class="mt-8">
       <h2 class="text-xl font-semibold border-b border-neutral-200 dark:border-neutral-700 pb-1 mb-4">Contact</h2>
-      <div class="flex space-x-2 text-2xl text-neutral-400 dark:text-neutral-500">
+      <div class="flex flex-wrap gap-3">
         <a href="https://www.linkedin.com/in/miguel-madrid-mencia" target="_blank" rel="me noopener noreferrer"
-           class="hover:text-primary-700 dark:hover:text-primary-400" aria-label="LinkedIn" title="LinkedIn">
-          <span class="inline-block align-text-bottom">{{ partial "icon.html" "linkedin" }}</span>
+           class="inline-flex items-center gap-2 rounded-full border border-neutral-300 dark:border-neutral-600 px-4 py-2 text-sm font-medium text-neutral-700 dark:text-neutral-300 hover:border-primary-600 hover:text-primary-600 dark:hover:border-primary-400 dark:hover:text-primary-400 transition-colors">
+          <span class="h-4 w-4">{{ partial "icon.html" "linkedin" }}</span>
+          LinkedIn
         </a>
         <a href="mailto:miguel.madrid.mencia@gmail.com"
-           class="hover:text-primary-700 dark:hover:text-primary-400" aria-label="Email" title="Email">
-          <span class="inline-block align-text-bottom">{{ partial "icon.html" "email" }}</span>
+           class="inline-flex items-center gap-2 rounded-full border border-neutral-300 dark:border-neutral-600 px-4 py-2 text-sm font-medium text-neutral-700 dark:text-neutral-300 hover:border-primary-600 hover:text-primary-600 dark:hover:border-primary-400 dark:hover:text-primary-400 transition-colors">
+          <span class="h-4 w-4">{{ partial "icon.html" "email" }}</span>
+          Email
         </a>
       </div>
+    </div>
+    <div style="margin-top: 2rem; display: flex; justify-content: space-between;">
+      <a href="/publications/" class="nav-next" style="font-size: 0.95rem; font-weight: 600;">← Publications</a>
+      <a href="/" class="nav-next" style="font-size: 0.95rem; font-weight: 600;">Home →</a>
     </div>
   </article>
 {{ end }}
