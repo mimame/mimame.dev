@@ -2,6 +2,8 @@
 title: "GEMDeCan: Tumor Immune Microenvironment Deconvolution"
 date: 2021-04-09
 summary: "Snakemake pipelines for tumor immune microenvironment deconvolution from RNA-seq and DNA methylation data, applied to 7,000+ TCGA samples and 166 immunotherapy patients."
+featureImage: "/images/gemdecan-pipeline.jpg"
+featureImageAlt: "GEMDeCan Snakemake deconvolution pipeline workflow"
 ---
 
 Multi-omics deconvolution framework to profile the tumor immune microenvironment (TME) and predict immunotherapy response, developed at the **Cancer Research Center of Toulouse (CRCT)**.

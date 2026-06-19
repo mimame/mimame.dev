@@ -2,6 +2,8 @@
 title: "OpenEBench Embeddable Benchmarking Widget"
 date: 2018-05-01
 summary: "Sole-author d3.js radial arc widget for the ELIXIR European scientific benchmarking platform, embeddable on any scientific tool website."
+featureImage: "/images/openebench-widget.png"
+featureImageAlt: "OpenEBench d3.js radial arc benchmarking widget"
 ---
 
 Sole author of the embeddable benchmarking widget for **OpenEBench**, the ELIXIR European scientific benchmarking platform at **BSC**. Any scientific tool registered in OpenEBench can embed the widget on its own website to display live performance metrics with a single `<script>` tag.
