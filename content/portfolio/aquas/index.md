@@ -10,7 +10,7 @@ featureImageAlt: "AQuAS health system visualization platform"
 
 A strategic collaboration between the **Barcelona Supercomputing Center (BSC)** and the **Catalan Agency for Health Quality and Evaluation (AQuAS)** to transform complex health system indicators into browseable, user-friendly insights.
 
-### Key Contributions
+## Key Contributions
 
 - **Geospatial Analytics:** Developed a geo-localized visualization system allowing users to relate diverse health indicators and assistance parameters across different regions.
 - **Temporal Tracking:** Implemented features to monitor the progress of health outcomes over multiple years, facilitating trend analysis.

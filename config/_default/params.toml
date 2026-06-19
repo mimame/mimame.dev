@@ -6,44 +6,44 @@ enableCodeCopy = true
 mainSections = ["publications", "portfolio"]
 
 [header]
-  layout = "fixed"
+layout = "fixed"
 
 [footer]
-  showCopyright = true
-  showThemeAttribution = false
-  showAppearanceSwitcher = true
-  showScrollToTop = true
+showCopyright = true
+showThemeAttribution = false
+showAppearanceSwitcher = true
+showScrollToTop = true
 
 [homepage]
-  layout = "profile"
-  showRecent = false
+layout = "profile"
+showRecent = false
 
 [article]
-  showDate = true
-  showAuthor = false
-  showBreadcrumbs = true
-  showHeadingAnchors = true
-  showReadingTime = false
-  showTableOfContents = false
-  showRelatedContent = false
-  showTaxonomies = false
-  showWordCount = false
-  sharingLinks = []
+showDate = true
+showAuthor = false
+showBreadcrumbs = true
+showHeadingAnchors = true
+showReadingTime = false
+showTableOfContents = false
+showRelatedContent = false
+showTaxonomies = false
+showWordCount = false
+sharingLinks = []
 
 [list]
-  showSummary = true
-  showCards = true
-  cardView = true
-  groupByYear = false
+showSummary = true
+showCards = true
+cardView = true
+groupByYear = false
 
 [author]
-  name = "Miguel Madrid-Mencía"
-  image = "img/me.png"
-  headline = "Senior Backend & Cloud Engineer | Bioinformatics & AI Systems"
-  bio = "10+ years building cloud-native systems across genomics, healthcare, and AI."
-  links = [
-    { github = "https://github.com/mimame" },
-    { linkedin = "https://www.linkedin.com/in/miguel-madrid-mencia" },
-    { google-scholar = "https://scholar.google.com/citations?user=4QCcJzoAAAAJ" },
-    { email = "mailto:miguel.madrid.mencia@gmail.com" },
-  ]
+name = "Miguel Madrid-Mencía"
+image = "img/me.png"
+headline = "Senior Backend & Cloud Engineer | Bioinformatics & AI Systems"
+bio = "10+ years building cloud-native systems across genomics, healthcare, and AI."
+links = [
+  { github = "https://github.com/mimame" },
+  { linkedin = "https://www.linkedin.com/in/miguel-madrid-mencia" },
+  { google-scholar = "https://scholar.google.com/citations?user=4QCcJzoAAAAJ" },
+  { email = "mailto:miguel.madrid.mencia@gmail.com" },
+]

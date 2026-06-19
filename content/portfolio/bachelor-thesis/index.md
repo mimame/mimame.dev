@@ -8,7 +8,7 @@ featureImageAlt: "Algorithm output showing automated uvea thickness measurement"
 
 Developed as a Bachelor's Thesis at the **Universidad Complutense de Madrid** in collaboration with the **Ophthalmology service of Hospital 12 de Octubre**.
 
-### Key Contributions
+## Key Contributions
 
 - **Automated Diagnostics:** Designed and implemented a computer vision algorithm to automate the measurement of uvea thickness from Optical Coherence Tomography (OCT) images.
 - **Clinical Monitoring:** Developed tools to monitor the progression of uveitis, providing quantitative data to support clinical decision-making.

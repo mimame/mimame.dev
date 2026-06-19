@@ -10,7 +10,7 @@ featureImageAlt: "TP53 protein structure visualization"
 
 Developed as a **Master's Thesis**, this project created an automated computational module for the functional annotation of genomic variants within 3D protein structures.
 
-### Key Features
+## Key Features
 
 - **Variant Annotation:** Automated the identification and labeling of cancer-related single-nucleotide variants (SNVs) specifically located at protein-protein interaction (PPI) interfaces.
 - **Data Integration:** Successfully integrated high-dimensional data from **Appris**, **Interactome3D**, and **COSMIC** to provide a comprehensive structural context for mutations.

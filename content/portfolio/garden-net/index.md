@@ -10,7 +10,7 @@ featureImageAlt: "GARDEN-NET 3D chromatin interaction network visualization"
 
 A comprehensive suite of tools for the representation and analysis of 3D genome architecture.
 
-### Key Contributions
+## Key Contributions
 
 - **GARDEN-NET (Web Tool):** Built a web-based visualization platform that allows researchers to project genomic features onto pre-loaded chromatin interaction networks.
 - **ChAseR (R Package):** Developed an R package to explore chromatin network topology and compute chromatin assortativity, highlighting associations between epigenomic features and 3D structure.

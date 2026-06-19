@@ -11,5 +11,5 @@ citation: "Field, Y., Ulirsch, J. C., Malangone, C., **Madrid-Mencia, M.**, et a
 
 Genome-wide association studies (GWAS) allow for the detection of variants statistically associated with disease risk. However, inferring the underlying causal genes is challenging. This approach utilizes machine learning to predict genes from GWAS summary statistics, substantially improving causal gene identification in terms of both precision and recall.
 
-**Status:** Pending (Published 2024-04-11)  
+**Status:** Pending (Published 2024-04-11)
 **Assignee:** Illumina Inc.

@@ -10,7 +10,7 @@ featureImageAlt: "ML pipeline architecture diagram for GWAS patent"
 
 A major technical milestone at **Illumina**, resulting in a published patent application for a novel machine learning pipeline.
 
-### The Problem
+## The Problem
 
 Genome-wide association studies (GWAS) are powerful for detecting variants associated with disease risk. However, transitioning from "associated variants" to identifying the actual **causal genes** is a notoriously difficult bottleneck in precision medicine.
 
@@ -25,6 +25,7 @@ We developed a machine learning framework that predicts causal genes directly fr
 - **Innovation:** Co-authored the underlying methodology described in the patent application.
 
 **Patent Details:**
+
 - **Title:** Machine learning pipeline for genome-wide association studies
 - **Publication No:** US20240120024A1
 - **Assignee:** Illumina Inc.
