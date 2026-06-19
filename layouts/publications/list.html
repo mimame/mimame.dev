@@ -3,10 +3,17 @@
 
   <article class="max-w-prose mx-auto">
     <h1 class="text-3xl font-bold mb-2">{{ .Title }}</h1>
-    <p class="text-neutral-500 dark:text-neutral-400 mb-8">
+    <p class="text-neutral-500 dark:text-neutral-400 mb-4">
       You can also find my articles on my
       <a href="https://scholar.google.com/citations?user=4QCcJzoAAAAJ" target="_blank" rel="noopener" class="text-primary-600 dark:text-primary-400 hover:underline">Google Scholar profile</a>.
     </p>
+
+    <div class="flex flex-wrap gap-4 mb-8 text-sm">
+      <span class="bg-neutral-100 dark:bg-neutral-800 px-3 py-1.5 rounded">7 papers · 1 first-author</span>
+      <span class="bg-neutral-100 dark:bg-neutral-800 px-3 py-1.5 rounded">127+ citations</span>
+      <span class="bg-neutral-100 dark:bg-neutral-800 px-3 py-1.5 rounded">h-index 7 · i10-index 6</span>
+      <span class="bg-neutral-100 dark:bg-neutral-800 px-3 py-1.5 rounded">1 pending patent · Illumina</span>
+    </div>
 
     {{ $categories := slice "patent" "manuscript" }}
     {{ $labels := dict "patent" "Patents" "manuscript" "Journal Articles" }}

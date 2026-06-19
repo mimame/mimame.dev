@@ -137,15 +137,6 @@
   ],
   "skills": [
     {
-      "name": "Publications",
-      "keywords": [
-        "7 papers (1 first-author)",
-        "127+ citations",
-        "h-index 7",
-        "i10-index 6"
-      ]
-    },
-    {
       "name": "Cloud & Platforms",
       "keywords": [
         "Terraform",
