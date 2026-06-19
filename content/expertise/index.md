@@ -1,5 +1,5 @@
 ---
 title: "Expertise"
-description: "Technical skills and areas of expertise."
+description: "Technical skills — cloud, backend, bioinformatics, and AI systems."
 layout: "expertise"
 ---
