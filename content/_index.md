@@ -11,6 +11,8 @@ Currently at **Egen.ai** (which acquired **Qarik Group** in Jan 2025), working o
 
 My background spans both sides of the research-engineering divide — academia, biotech, and tech across Spain, France, the UK, and the US.
 
+*Open to France-based opportunities in cloud-native or bioinformatics. [See what I'm looking for →](/hire/)*
+
 <div style="margin-top: 2rem; display: flex; justify-content: space-between;">
   <a href="/hire/" class="nav-next" style="font-size: 0.95rem; font-weight: 600;">← Hire me</a>
   <a href="/cv/" class="nav-next" style="font-size: 0.95rem; font-weight: 600;">View CV →</a>

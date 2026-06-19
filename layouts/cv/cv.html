@@ -105,12 +105,20 @@
         <span class="bg-neutral-100 dark:bg-neutral-800 px-2 py-1 rounded">h-index 7 · i10-index 6</span>
         <span class="bg-neutral-100 dark:bg-neutral-800 px-2 py-1 rounded">1 pending patent · Illumina</span>
       </div>
-      {{ range ($pubs.ByParam "citation_count").Reverse }}
+      {{ $manuscripts := where $pubs "Params.category" "manuscript" }}
+      {{ $patents := where $pubs "Params.category" "patent" }}
+      {{ range ($manuscripts.ByParam "citation_count").Reverse }}
       <div class="mb-3 text-sm">
         <a href="{{ .Params.paperurl }}" target="_blank" rel="noopener" class="font-medium hover:text-primary-600 dark:hover:text-primary-400">{{ .Title }}</a>
         <span class="text-neutral-500 dark:text-neutral-400"> · {{ .Params.venue }}, {{ .Date.Format "2006" }}
           {{ if and .Params.citation_count (gt (int .Params.citation_count) 0) }} · Cited by {{ .Params.citation_count }}{{ end }}
         </span>
+      </div>
+      {{ end }}
+      {{ range $patents }}
+      <div class="mb-3 text-sm">
+        <a href="{{ .Params.paperurl }}" target="_blank" rel="noopener" class="font-medium hover:text-primary-600 dark:hover:text-primary-400">{{ .Title }}</a>
+        <span class="text-neutral-500 dark:text-neutral-400"> · {{ .Params.venue }}, {{ .Date.Format "2006" }} · Pending</span>
       </div>
       {{ end }}
     </section>
