@@ -14,3 +14,5 @@ Sole author of the embeddable benchmarking widget for **OpenEBench**, the ELIXIR
 - **Zero-friction Embedding:** A website integrates it with one `<div class="opeb" data-id="tool-id">` + one `<script>` tag — no build step required by consumers.
 
 **Technologies:** JavaScript · d3.js · Webpack 4 · Yarn · UglifyJS · AGPL-3.0.
+
+[GitHub](https://github.com/inab/openEBench-widgets) | [Live demo](https://inab.github.io/openEBench-widgets/)

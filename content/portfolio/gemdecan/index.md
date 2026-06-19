@@ -19,4 +19,4 @@ Gene expression deconvolution (bulk RNA-seq: BCL → FASTQ → TPM via STAR/RSEM
 
 **Technologies:** Python · Snakemake · R · Docker · Singularity · STAR · RSEM · Salmon · Scikit-Learn · ChAMP · minfi · immunedeconv · EpiDish · CIBERSORTx · Tidyverse.
 
-[View preprint on bioRxiv](https://doi.org/10.1101/2021.04.09.439207)
+[View preprint on bioRxiv](https://doi.org/10.1101/2021.04.09.439207) | [GitHub](https://github.com/VeraPancaldiLab/GEMDeCan)

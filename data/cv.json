@@ -178,6 +178,14 @@
       ]
     },
     {
+      "name": "Open Source",
+      "keywords": [
+        "NixOS/nixpkgs: 329 merged commits (2016–2026) · package maintainer",
+        "Julia, Crystal, Nim upstream PRs",
+        "13 tooling contributions (FluxML, BioJulia, fzf, and others)"
+      ]
+    },
+    {
       "name": "Languages",
       "keywords": [
         "Spanish (Native)",

@@ -19,4 +19,4 @@ A comprehensive suite of tools for the representation and analysis of 3D genome 
 
 **Technologies:** R, Shiny/Web Development, Network Analysis, Epigenomics, Bioinformatics.
 
-[View Publication](/publications/garden-net-chaser/) | [Read full paper](https://academic.oup.com/nar/article/48/8/4066/5817639)
+[View Publication](/publications/garden-net-chaser/) | [Read full paper](https://academic.oup.com/nar/article/48/8/4066/5817639) | [Frontend](https://github.com/VeraPancaldiLab/GARDEN-NET) | [Backend](https://github.com/VeraPancaldiLab/GARDEN-NET_backend)
