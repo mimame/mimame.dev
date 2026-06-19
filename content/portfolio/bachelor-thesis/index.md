@@ -19,6 +19,6 @@ Developed as a Bachelor's Thesis at the **Universidad Complutense de Madrid** in
 | Manual Measurement | Automatic Algorithm Measurement |
 |:---:|:---:|
 | ![Manual Measurement](manual-measurement.png) | ![Automatic Measurement](algorithm-output.png) |
-| *Example of manual annotation* | *Algorithm output showing automated thickness calculation* |
+| *Manual: 334 μm* | *Algorithm: 304 μm* |
 
 **Skills:** Computer Vision, Python, OpenCV, Medical Imaging.
