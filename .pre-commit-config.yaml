@@ -1,3 +1,5 @@
+exclude: ^static/talkmap/  # third-party academic map visualization tool
+
 repos:
   - repo: https://github.com/pre-commit/pre-commit-hooks
     rev: v6.0.0
@@ -22,7 +24,11 @@ repos:
       - id: rumdl
         args: [--fix]
 
-  - repo: https://github.com/adamchainz/pre-commit-dprint
-    rev: v0.36.1
+  - repo: local
     hooks:
       - id: dprint
+        name: dprint
+        entry: dprint fmt
+        language: system
+        types_or: [json, toml]
+        pass_filenames: true

@@ -1,0 +1,8 @@
+[global]
+exclude = ["public", "resources", "themes", "static"]
+respect-gitignore = true
+disable = [
+    "MD013", # prose lines are not wrapped at 80 chars
+    "MD033", # Hugo content intentionally uses inline HTML
+    "MD041", # not all Hugo content files start with a heading
+]
