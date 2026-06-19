@@ -1,12 +1,10 @@
 ---
 title: "Working with me"
-description: "For recruiters and hiring managers."
+description: "Senior Backend & Cloud Engineer open to France-based roles in cloud-native or bioinformatics. Master's in Bioinformatics, 7 publications, pending Illumina patent."
 showDate: false
 ---
 
-**Senior Backend & Cloud Engineer** — Master's in Bioinformatics, 7 peer-reviewed publications (127+ citations, h-index 7) spanning oncology and genomics, and a pending Illumina patent on ML-based causal gene identification from GWAS data. 10+ years across public research in Spain and France, genomics industry, and cloud consulting.
-
-*This page is for recruiters and hiring managers. If you reached it from a job platform or a direct message — you're in the right place.*
+**Senior Backend & Cloud Engineer** — Master's in Bioinformatics, 7 peer-reviewed publications (127+ citations, h-index 7) spanning oncology and genomics, and a pending Illumina patent on ML-based causal gene identification from GWAS data. 10+ years across public research in Spain and France, genomics industry, and cloud consulting. Currently at **Egen.ai**.
 
 ## What I'm looking for
 
@@ -20,7 +18,7 @@ I care more about how you work than what you use. Stack and frameworks are secon
 
 - Freelance missions or short-term contracts
 - Being added to a talent pool without a specific role
-- Environments where speed always wins over quality, or where on-call is a constant
+- Environments where speed always wins over quality, or where on-call is the norm
 
 ## If you have a specific role
 
