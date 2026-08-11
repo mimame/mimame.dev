@@ -1,10 +1,10 @@
 ---
 title: "Working with me"
-description: "Senior Backend & Cloud Engineer open to France-based roles in cloud-native or bioinformatics. Master's in Bioinformatics, 7 publications, pending Illumina patent."
+description: "Backend & Cloud Engineer open to France-based roles in cloud-native or bioinformatics. Master's in Bioinformatics, 7 publications, patent contribution."
 showDate: false
 ---
 
-**Senior Backend & Cloud Engineer** — Master's in Bioinformatics, 7 peer-reviewed publications (127+ citations, h-index 7) spanning oncology and genomics, and a pending Illumina patent on ML-based causal gene identification from GWAS data. 10+ years across public research in Spain and France, genomics industry, and cloud consulting. Currently at **Egen.ai**.
+**Backend & Cloud Engineer** — Master's in Bioinformatics, 7 peer-reviewed publications (135+ citations, h-index 7) spanning oncology and genomics, and contributed to a pending Illumina patent. 10+ years across public research in Spain and France, genomics industry, and cloud consulting. Previously at **Egen.ai** (ended Aug 2026).
 
 ## What I'm looking for
 

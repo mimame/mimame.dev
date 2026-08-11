@@ -39,8 +39,8 @@ groupByYear = false
 [author]
 name = "Miguel Madrid-Mencía"
 image = "img/me.png"
-headline = "Senior Backend & Cloud Engineer | Bioinformatics & AI Systems"
-bio = "10+ years building cloud-native systems across genomics, healthcare, and AI."
+headline = "Backend & Cloud Engineer · Genomics & Applied ML"
+bio = "10+ years across research, genomics, and cloud engineering."
 links = [
   { github = "https://github.com/mimame" },
   { linkedin = "https://www.linkedin.com/in/miguel-madrid-mencia" },

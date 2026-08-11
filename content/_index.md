@@ -1,15 +1,15 @@
 ---
 title: "Miguel Madrid-Mencía"
-description: "Senior Backend & Cloud Engineer at the intersection of genomics and production ML."
+description: "Backend & Cloud Engineer. Previously at Egen.ai, Illumina, CRCT, BSC, CNIO."
 ---
 
-Senior Backend & Cloud Engineer with 10+ years across research, genomics, and software consulting. I build secure, reproducible cloud-native systems — CI/CD, ML pipelines, and AI agents — for clients in healthcare, finance, and biotech.
+Backend & Cloud Engineer with 10+ years across research, genomics, and software consulting. I build cloud-native systems — CI/CD, ML pipelines, and AI agents — for clients in pharma, finance, and biotech.
 
 *Where genomics sharpens engineering.*
 
-Currently at **Egen.ai** (which acquired **Qarik Group** in Jan 2025), working on GCP infrastructure, Voice AI testing, and multi-agent AI orchestration. Previously at **Illumina**, **CRCT**, **BSC**, and **CNIO** — where I co-authored a pending patent and 7 peer-reviewed publications (127+ citations), including a first-author publication in *Nucleic Acids Research*.
+Previously at **Egen.ai** (which acquired **Qarik Group** in Jan 2025, ended Aug 2026), working on GCP infrastructure, Voice AI testing, and multi-agent AI orchestration. Before that at **Illumina**, **CRCT**, **BSC**, and **CNIO** — contributed to a pending patent and 7 peer-reviewed publications (135+ citations), including a first-author publication in *Nucleic Acids Research*.
 
-My background spans both sides of the research-engineering divide — academia, biotech, and tech across Spain, France, the UK, and the US.
+Worked across academia, biotech, and tech in Spain, France, the UK, and the US.
 
 *Open to France-based opportunities in cloud-native or bioinformatics. [See what I'm looking for →](/hire/)*
 
