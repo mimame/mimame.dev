@@ -4,7 +4,7 @@ description: "Backend & Cloud Engineer open to France-based roles in cloud-nativ
 showDate: false
 ---
 
-**Backend & Cloud Engineer** — Master's in Bioinformatics, 7 peer-reviewed publications (135+ citations, h-index 7) spanning oncology and genomics, and contributed to a pending Illumina patent. 10+ years across public research in Spain and France, genomics industry, and cloud consulting. Previously at **Egen.ai** (ended Aug 2026).
+**Backend & Cloud Engineer** — Master's in Bioinformatics, 7 peer-reviewed publications (144+ Google Scholar citations, h-index 7) spanning oncology and genomics, and contributed to a pending Illumina patent. 10+ years across public research in Spain and France, genomics industry, and cloud consulting. At **Egen.ai**: GCP infrastructure, Voice AI testing, and multi-agent AI orchestration.
 
 ## What I'm looking for
 

@@ -5,7 +5,7 @@
     "email": "miguel.madrid.mencia@gmail.com",
     "phone": "",
     "website": "https://mimame.dev",
-    "summary": "10+ years across research, genomics, and cloud engineering. 1 first-author and 6 co-authored peer-reviewed publications with 135+ citations. Contributed to a pending patent in applied bioinformatics and genomic data processing.",
+    "summary": "10+ years across research, genomics, and cloud engineering. 1 first-author and 6 co-authored peer-reviewed publications with 144+ Google Scholar citations. Contributed to a pending patent in applied bioinformatics and genomic data processing.",
     "location": {
       "address": "",
       "postalCode": "",
@@ -39,10 +39,11 @@
       "endDate": "Aug 2026",
       "summary": "Applied ML Systems. US cloud and AI consultancy. Acquired from Qarik Group in Jan 2025 — role and scope were continuous across the acquisition.",
       "highlights": [
-        "Built a multi-agent AI orchestration system on GCP for a pharma R&D client, applying genomics domain knowledge to shape agent design.",
-        "Developed GCP Agents and A2A orchestration via MCP/ADK.",
-        "Built a Twilio-based testing framework to automatically generate all mood and user behaviour call combinations for a Voice AI system, replacing manual script configuration.",
-        "Hardened CI/CD pipelines, code quality gates, and security standards for a US financial client — reducing production incidents."
+        "Designed and built multi-agent AI orchestration POCs on GCP (Gemini Enterprise Agent Platform, MCP/ADK, A2A) for a Fortune 500 pharma client, with agents connected to synthetic data for demos; proposed and designed the use-case catalog: gene-enrichment analyst, paper summarizer with iterative validation against the source paper, on-the-fly enrichment, and unified orchestration.",
+        "Designed a configuration-file-driven Voice AI testing framework on Twilio that generates all mood and behaviour call combinations, eliminating manual test configuration and demo-affecting failures.",
+        "Hardened CI/CD pipelines, code quality, and security standards for a major US financial services firm.",
+        "Integrated AI agents and models into a business-document validation pipeline (Python) for the same US financial services firm, the firm's first AI-driven document validation; sole implementer of the project's linting within the team.",
+        "Google Cloud Certified Partner Specialist: Gemini Enterprise Deployment + Agent Development (9 GCP skill badges); improved the firm's internal onboarding documentation system."
       ],
       "location": "Hybrid: US, France",
       "url": "https://egen.ai"
@@ -54,7 +55,7 @@
       "endDate": "Dec 2024",
       "summary": "GCP-focused cloud consultancy. Acquired by Egen.ai in Jan 2025; role and projects were continuous across the acquisition.",
       "highlights": [
-        "Delivered an API for data ingestion into BigQuery, deployed on GCP with Terraform and Concourse, for a US biotech client."
+        "Delivered a Python/SQLModel API for data ingestion into BigQuery (~15M documents), deployed on GCP with Terraform and Concourse for a leading precision medicine company, replacing a manual and semi-automated ingestion routine; corpus migration completed in under 3 months."
       ],
       "location": "Hybrid: US, France",
       "url": "https://qarik.com"
@@ -81,7 +82,7 @@
       "summary": "Translational cancer research center (INSERM). Network biology, epigenomics, and cancer multi-omics.",
       "highlights": [
         "Built reproducible Snakemake ML pipelines processing multi-omics datasets (RNA-seq, DNA methylation, 3D chromatin) across multiple cancer cohorts.",
-        "1 first-author and 6 co-authored peer-reviewed publications with 135+ citations in oncology and systems biology.",
+        "1 first-author and 6 co-authored peer-reviewed publications with 144+ Google Scholar citations in oncology and systems biology.",
         "Built [GARDEN-NET](https://pancaldi.bsc.es/garden-net/), a web tool for 3D chromatin interaction analysis — published in Nucleic Acids Research."
       ],
       "location": "Toulouse, France",
@@ -96,7 +97,7 @@
       "highlights": [
         "Developed a geospatial visualization platform for AQuAS to analyse health outcomes and quality indicators across Catalonia.",
         "Built the OpenEBench embeddable benchmarking widget (sole author) — a d3.js radial arc widget used by scientific tools across the ELIXIR European benchmarking platform.",
-        "Primary contributor (79 of 110 commits) to the OpenEBench submission infrastructure — Docker sample containers, Nextflow pipeline generator, Vagrant multi-service VM, and SFTP submission service."
+        "Primary contributor to the OpenEBench submission infrastructure, Docker sample containers, Nextflow pipeline generator, Vagrant multi-service VM, and SFTP submission service."
       ],
       "location": "Barcelona, Spain",
       "url": "https://www.bsc.es"
@@ -104,7 +105,7 @@
     {
       "company": "Spanish National Cancer Research Center (CNIO)",
       "position": "Research Technician",
-      "startDate": "May 2016",
+      "startDate": "Apr 2016",
       "endDate": "Jun 2017",
       "summary": "Spain's national cancer research institute. Structural biology and molecular oncology.",
       "highlights": [
@@ -141,14 +142,14 @@
         "AWS (EC2, S3)",
         "Terraform",
         "CI/CD (Concourse, Jenkins, GitHub Actions)",
-        "Docker, Singularity, Kubernetes / Helm"
+        "Docker, Singularity, Kubernetes"
       ]
     },
     {
       "name": "Backend & Data Engineering",
       "keywords": [
         "Python (FastAPI, Flask, Pandas, Polars)",
-        "R (Tidyverse, Tidymodels, Bioconductor)",
+        "R (Tidyverse, Bioconductor)",
         "SQL (BigQuery, Snowflake, Postgres)",
         "Go, Rust, TypeScript, Crystal, Ruby",
         "REST APIs, gRPC"
@@ -157,7 +158,7 @@
     {
       "name": "ML & AI",
       "keywords": [
-        "Scikit-Learn, PyCaret, Tidymodels",
+        "Scikit-Learn, PyCaret",
         "Vertex AI, Gemini, GPT-4o",
         "NLP: NLTK, SpaCy, biomedical NER"
       ]
@@ -175,7 +176,7 @@
     {
       "name": "Open Source",
       "keywords": [
-        "NixOS/nixpkgs: 329 merged commits (2016–2026) · package maintainer",
+        "NixOS/nixpkgs package maintainer since 2016",
         "Julia, Crystal, Nim upstream PRs",
         "13 tooling contributions (FluxML, BioJulia, fzf, and others)"
       ]
@@ -184,8 +185,8 @@
       "name": "Languages",
       "keywords": [
         "Spanish (Native)",
-        "English (Professional)",
-        "French (Professional)"
+        "English (B2)",
+        "French (B2)"
       ]
     },
     {
